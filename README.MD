@@ -34,6 +34,43 @@ como perder o cliente custa muito mais que uma retenção á toa, o modelo deve 
 
 ---
 
+## Analise
+
+### EDA
+
+Atributos que NÃO influenciam o churn:
+
+- Gênero — distribuição praticamente igual entre os que ficam e os que saem. Não é fator relevante.
+
+Atributos de perfil do cliente:
+
+- Clientes idosos têm proporção de churn maior que jovens, apesar de serem minoria no dataset.
+- Clientes sem cônjuge e sem dependentes saem mais — possivelmente porque têm menos "vínculo" que dificulte a troca de fornecedor.
+
+Atributos de contrato (como o cliente compra):
+
+- Contrato mensal tem churn muito maior que contratos de 1 ou 2 anos. Faz sentido: sem compromisso de longo prazo, a barreira de saída é baixa.
+- Pagamento por Electronic Check tem churn mais alto (~45%). Métodos automáticos (cartão, transferência) retêm mais.
+- Paperless Billing (fatura digital) está associado a mais churn (~50%). Pode indicar que esses clientes são mais "digitais" e comparam mais ofertas online.
+
+Atributos de serviço (o que o cliente usa):
+
+- Clientes com fibra óptica saem mais que os com DSL. Pode ser pelo preço mais alto.
+- Clientes sem suporte técnico, segurança online, backup online e proteção de dispositivo saem mais. Esses serviços funcionam como "âncoras" — quanto mais serviços o cliente tem, mais "custo de saída" ele tem ao cancelar.
+- Streaming (TV e Movies) tem pouca influência isolada.
+
+Atributos financeiros (quanto custa):
+
+Mensalidades na faixa de R$ 80-100 concentram mais churn.
+Clientes com pouco tempo de casa (tenure baixo) saem mais — os primeiros meses são os mais críticos.
+
+
+### Conclusão
+
+O Cliente que da churn é: contrato mensal que tem pouco tempo de casa, paga caro que tem pouco serviços adicionais, paga por boleto eletronico e nao tem conjuge/dependentes. Um cliente com pouco vinculos com a empresa tanto em serviço e contratual.
+
+---
+
 ## Estrutura do Projeto
 
 ```
