@@ -22,7 +22,7 @@ existente. Um modelo que antecipa quem vai sair permite agir a tempo — e isso 
 
 ## Problema de Negócio
 
-A Reactive Systems trabalha com receita recorrente (assinaturas, contratos mensais, SaaS) e enfrenta um desafio constante: a evasão de clientes. Identificar com antecedência quais clientes têm maior probabilidade de cancelar permite agir antes da perda — com ofertas de retenção, atendimento proativo ou ajustes no serviço.
+A Reative Systems trabalha com receita recorrente (assinaturas, contratos mensais, SaaS) e enfrenta um desafio constante: a evasão de clientes. Identificar com antecedência quais clientes têm maior probabilidade de cancelar permite agir antes da perda — com ofertas de retenção, atendimento proativo ou ajustes no serviço.
 
 Sem um modelo preditivo, a empresa só descobre que perdeu o cliente **depois que ele já saiu**. Com o modelo, é possível agir **enquanto ainda dá tempo**.
 
